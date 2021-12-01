@@ -25,14 +25,9 @@ class Command(BaseCommand):
                     elif msg.error():
                         raise KafkaException(msg.error())
                 else:
-                    course_key = msg.key().course_key
-                    course_event = msg.value()
-                    course = course_event.course
-                    is_enroll = course_event.is_enroll
-                    student = course_event.user_id
-
-                    print(f"Course key: {course_key}")
-                    print(f"{ 'Enrolled' if is_enroll else 'Unenrolled' } student {student} from {course.formatted_title()}")
+                    course_data = msg.key()
+                    course_enrollment_data = msg.value()
+                    print(f"Received msg: {course_data}, {course_enrollment_data}")
         finally:
             # Close down consumer to commit final offsets.
             CONSUMER.close()
