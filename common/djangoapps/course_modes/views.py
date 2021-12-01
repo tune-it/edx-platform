@@ -176,13 +176,18 @@ class ChooseModeView(View):
             user=request.user,
             course_key=course_key
         )
+        # Check if course is verified only mode
+        is_verified_only = CourseMode.has_verified_mode(modes) and len(modes) == 1
+
         context = {
             "course_modes_choose_url": reverse(
                 "course_modes_choose",
                 kwargs={'course_id': course_id}
             ),
             "modes": modes,
+            "is_single_mode": len(modes) == 1,
             "has_credit_upsell": has_credit_upsell,
+            "is_verified_only": is_verified_only,
             "course_name": course.display_name_with_default,
             "course_org": course.display_org_with_default,
             "course_num": course.display_number_with_default,
