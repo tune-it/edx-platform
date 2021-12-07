@@ -6353,7 +6353,6 @@ msgid ""
 msgstr ""
 "Дата окончания проверки в свободной форме установлена вашим инструктором "
 "и не может быть перенесена"
->>>>>>> Stashed changes
 
 #. Translators: 'absolute' is a date such as "Jan 01,
 #. 2020". 'relative' is a fuzzy description of the time until

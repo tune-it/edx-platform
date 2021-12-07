@@ -9992,13 +9992,8 @@ msgid "Copy Component Location"
 msgstr "Скопировать местонахождение компонента"
 
 #: cms/templates/js/course-highlights-enable.underscore
-<<<<<<< Updated upstream
-msgid "Weekly Highlight Emails"
-msgstr ""
-=======
 msgid "Course Highlight Emails"
 msgstr "Электронные адреса для важных тем"
->>>>>>> Stashed changes
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Enabled"
