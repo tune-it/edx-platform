@@ -8559,7 +8559,7 @@ msgstr "Посмотреть курс"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Select a session:"
-msgstr ""
+msgstr "Выберите запуск:"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Enroll Now"
@@ -9993,7 +9993,7 @@ msgstr "Скопировать местонахождение компонент
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Course Highlight Emails"
-msgstr "Электронные адреса для важных тем"
+msgstr "Почтовые оповещения для важных тем"
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Enabled"
@@ -10002,6 +10002,10 @@ msgstr "Включено"
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Enable Now"
 msgstr "Разрешить сейчас"
+
+#: cms/templates/js/course-highlights-enable.underscore
+msgid "Learn more"
+msgstr "Узнать больше"
 
 #: cms/templates/js/course-instructor-details.underscore
 msgid "Instructor Name"
