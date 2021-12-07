@@ -6306,6 +6306,55 @@ msgstr "Этот курс недоступен вам из мобильного 
 msgid "Upgrade to Verified"
 msgstr "Повысить до уровня «Подтверждённый сертификат»"
 
+#: lms/djangoapps/courseware/access_response.py
+msgid "You must be enrolled in the course"
+msgstr "Вы должны быть записаны на курс"
+
+#: lms/djangoapps/courseware/access_response.py
+msgid "You must be logged in to see this course"
+msgstr "Вы должны быть зарегистрированы, чтобы видеть этот курс"
+
+#: lms/djangoapps/courseware/access_response.py
+msgid "Please view your course in the existing experience"
+msgstr "Пожалуйста просматривайте курс в доступном для вас интерфейсе"
+
+#: lms/djangoapps/courseware/course_tools.py
+msgid "Financial Assistance"
+msgstr "Финансовая помощь"
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Assignment"
+msgstr "Проверка"
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Open Response Assessment"
+msgstr "Проверка в свободной форме"
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Self Assessment"
+msgstr "Самопроверка"
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Peer Assessment"
+msgstr "Проверка другим учащимся"
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Staff Assessment"
+msgstr "Проверка преподаваетелем"
+
+#: lms/djangoapps/courseware/courses.py
+msgid "Submission"
+msgstr "Задание в свободной форме"
+
+#: lms/djangoapps/courseware/courses.py
+msgid ""
+"Open Response Assessment due dates are set by your instructor and can't be "
+"shifted."
+msgstr ""
+"Дата окончания проверки в свободной форме установлена вашим инструктором "
+"и не может быть перенесена"
+>>>>>>> Stashed changes
+
 #. Translators: 'absolute' is a date such as "Jan 01,
 #. 2020". 'relative' is a fuzzy description of the time until
 #. 'absolute'. For example, 'absolute' might be "Jan 01, 2020",
@@ -6340,6 +6389,7 @@ msgid "Course starts in {time_remaining_string} at {course_start_time}."
 msgstr "Курс начнётся через {time_remaining_string} — {course_start_time}."
 
 #: lms/djangoapps/courseware/date_summary.py
+
 msgid "Course End"
 msgstr "Окончание курса"
 
