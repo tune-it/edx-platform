@@ -7216,7 +7216,7 @@ msgstr ""
 
 #: cms/static/js/views/xblock_editor.js
 msgid "Editor"
-msgstr ""
+msgstr "Редактор"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Settings"
@@ -7224,7 +7224,7 @@ msgstr "Настройки"
 
 #: cms/static/js/views/xblock_outline.js
 msgid "New {component_type}"
-msgstr ""
+msgstr "Добавить {component_type}"
 
 #: cms/static/js/xblock_asides/structured_tags.js
 msgid "Updating Tags"
@@ -10001,7 +10001,7 @@ msgstr "Включено"
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Enable Now"
-msgstr ""
+msgstr "Разрешить сейчас"
 
 #: cms/templates/js/course-instructor-details.underscore
 msgid "Instructor Name"
