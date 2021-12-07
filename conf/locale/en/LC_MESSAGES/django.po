@@ -12489,6 +12489,12 @@ msgctxt "unit"
 msgid "Next"
 msgstr ""
 
+#. Translators: A button for showing the Next Unit
+#: lms/templates/seq_module.html
+msgctxt "unit"
+msgid "New"
+msgstr ""
+
 #: lms/templates/seq_module.html
 msgid "Sequence"
 msgstr ""

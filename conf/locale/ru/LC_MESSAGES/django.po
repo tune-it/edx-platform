@@ -13487,7 +13487,7 @@ msgstr ""
 
 #: lms/templates/_gated_content.html lms/templates/seq_module.html
 msgid "Content Locked"
-msgstr ""
+msgstr "Содержимое заблокировано"
 
 #: lms/templates/_gated_content.html
 msgid ""
@@ -14531,19 +14531,35 @@ msgstr ""
 
 #: lms/templates/seq_module.html
 msgid "Important!"
-msgstr ""
+msgstr "Важно!"
 
+#. Translators: A button for showing the Previous Unit
 #: lms/templates/seq_module.html
+msgctxt "unit"
 msgid "Previous"
-msgstr "Назад"
+msgstr "Предыдущий блок"
 
+#. Translators: A button for showing the Next Unit
 #: lms/templates/seq_module.html
+msgctxt "unit"
 msgid "Next"
-msgstr "Вперёд"
+msgstr "Следующий блок"
+
+#. Translators: A button for showing the Next Unit
+#: lms/templates/seq_module.html
+msgctxt "unit"
+msgid "New"
+msgstr "Новый блок"
 
 #: lms/templates/seq_module.html
 msgid "Sequence"
 msgstr "Последовательность блоков"
+
+#: lms/templates/courseware/dates.html lms/templates/seq_module.html
+#: lms/templates/vert_module.html
+#: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html
+msgid "Completed"
+msgstr "Завершено"
 
 #: lms/templates/signup_modal.html
 msgid "Sign Up for {platform_name}"
