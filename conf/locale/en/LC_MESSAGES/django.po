@@ -1765,6 +1765,30 @@ msgstr ""
 msgid "Text Input with Hints and Feedback"
 msgstr ""
 
+#: cms/templates/widgets/html-edit.html
+msgid "Announcement"
+msgstr ""
+
+#: cms/templates/widgets/html-edit.html
+msgid "Anonymous User ID"
+msgstr ""
+
+#: cms/templates/widgets/html-edit.html
+msgid "IFrame Tool"
+msgstr ""
+
+#: cms/templates/widgets/html-edit.html
+msgid "E-text Written in LaTeX"
+msgstr ""
+
+#: cms/templates/widgets/html-edit.html
+msgid "Raw HTML"
+msgstr ""
+
+#: cms/templates/widgets/html-edit.html
+msgid "Zooming Image Tool"
+msgstr ""
+
 #: common/lib/capa/capa/responsetypes.py
 msgid "There was a problem with the staff answer to this problem."
 msgstr ""
@@ -1981,6 +2005,30 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Blank Advanced Problem"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Custom JavaScript Display and Grading"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Custom Python-Evaluated Input"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Drag and Drop"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Drag and Drop (Deprecated Version)"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Problem with Adaptive Hint"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Staff Graded Points"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
@@ -11046,6 +11094,26 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "Blank Open Response Assessment"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Peer Assessment Only"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Self Assessment Only"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Self Assessment to Peer Assessment"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Self Assessment to Staff Assessment"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Staff Assessment Only"
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py

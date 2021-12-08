@@ -2202,7 +2202,7 @@ msgstr "Цифровой ввод"
 #: common/lib/capa/capa/responsetypes.py
 #: cms/templates/widgets/problem-edit.html
 msgid "Blank Common Problem"
-msgstr "Общий вопрос"
+msgstr "Пустой Общий вопрос"
 
 #: common/lib/capa/capa/responsetypes.py
 #: cms/templates/widgets/problem-edit.html
@@ -2228,6 +2228,30 @@ msgstr "Цифровой ввод с подсказками и обратной 
 #: cms/templates/widgets/problem-edit.html
 msgid "Text Input with Hints and Feedback"
 msgstr "Текстовый ввод с подсказками и обратной связью"
+
+#: cms/templates/widgets/html-edit.html
+msgid "Announcement"
+msgstr "Анонс"
+
+#: cms/templates/widgets/html-edit.html
+msgid "Anonymous User ID"
+msgstr "Анонимный ИД пользователя"
+
+#: cms/templates/widgets/html-edit.html
+msgid "IFrame Tool"
+msgstr "Подключение IFrame"
+
+#: cms/templates/widgets/html-edit.html
+msgid "E-text Written in LaTeX"
+msgstr "Текст на LaTeX"
+
+#: cms/templates/widgets/html-edit.html
+msgid "Raw HTML"
+msgstr "Самостоятельно сформатированный HTML"
+
+#: cms/templates/widgets/html-edit.html
+msgid "Zooming Image Tool"
+msgstr "Изображение с масштабированием"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "There was a problem with the staff answer to this problem."
@@ -2463,6 +2487,30 @@ msgstr "Пояснение"
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Blank Advanced Problem"
 msgstr "Пустая задача: XML-редактор"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Custom JavaScript Display and Grading"
+msgstr "Заданный JavaScript для отображения и Грейдинга"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Custom Python-Evaluated Input"
+msgstr "Ввод, проверямемы скриптом на Python"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Drag and Drop"
+msgstr "Перетаскивание"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Drag and Drop (Deprecated Version)"
+msgstr "Перетаскивание (Устаревшая версия)"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Problem with Adaptive Hint"
+msgstr "Задача с адаптивными подсказками"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Staff Graded Points"
+msgstr "Оценка преподавателя"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Number of attempts taken by the student on this problem"
@@ -6354,7 +6402,7 @@ msgstr "Финансовая помощь"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Assignment"
-msgstr "Проверка"
+msgstr "Контроль"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Open Response Assessment"
@@ -6362,15 +6410,15 @@ msgstr "Проверка в свободной форме"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Self Assessment"
-msgstr "Самопроверка"
+msgstr "Самоконтроль"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Peer Assessment"
-msgstr "Проверка другим учащимся"
+msgstr "Контроль другим учащимся"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Staff Assessment"
-msgstr "Проверка преподаваетелем"
+msgstr "Контроль преподаваетелем"
 
 #: lms/djangoapps/courseware/courses.py
 msgid "Submission"
@@ -6381,7 +6429,7 @@ msgid ""
 "Open Response Assessment due dates are set by your instructor and can't be "
 "shifted."
 msgstr ""
-"Дата окончания проверки в свободной форме установлена вашим инструктором "
+"Дата окончания контроля в свободной форме установлена вашим инструктором "
 "и не может быть перенесена"
 
 #. Translators: 'absolute' is a date such as "Jan 01,
@@ -12666,6 +12714,10 @@ msgstr "Уровни поддержки {platform_name}:"
 msgid "HTML"
 msgstr "HTML"
 
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Open Response"
+msgstr "Открытый ответ"
+
 #: cms/djangoapps/contentstore/views/component.py lms/templates/video.html
 msgid "Video"
 msgstr "Видео"
@@ -12674,13 +12726,37 @@ msgstr "Видео"
 msgid "Blank"
 msgstr "Пустой"
 
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Blank Open Response Assessment"
+msgstr "Новый контроль с открытым вопросом"
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Peer Assessment Only"
+msgstr "Контроль другим учащимся"
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Self Assessment Only"
+msgstr "Самоконтроль"
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Self Assessment to Peer Assessment"
+msgstr "Самоконтроль с перекрестным контролем"
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Self Assessment to Staff Assessment"
+msgstr "Самоконтроль с контролем преподавателем"
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Staff Assessment Only"
+msgstr "Контроль преподавателем"
+
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Course has been successfully reindexed."
 msgstr "Поисковый индекс курса успешно обновлён."
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Set Date"
-msgstr ""
+msgstr "Дата"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid ""
