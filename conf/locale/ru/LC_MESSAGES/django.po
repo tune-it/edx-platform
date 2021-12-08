@@ -2200,6 +2200,36 @@ msgid "Numerical Input"
 msgstr "Цифровой ввод"
 
 #: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Blank Common Problem"
+msgstr "Общий вопрос"
+
+#: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Checkboxes with Hints and Feedback"
+msgstr "Флажки с подсказками и обратной связью"
+
+#: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Dropdown with Hints and Feedback"
+msgstr "Выпадающий список с подсказками и обратной связью"
+
+#: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Multiple Choice with Hints and Feedback"
+msgstr "Выбор варианта с подсказками и обратной связью "
+
+#: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Numerical Input with Hints and Feedback"
+msgstr "Цифровой ввод с подсказками и обратной связью"
+
+#: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Text Input with Hints and Feedback"
+msgstr "Текстовый ввод с подсказками и обратной связью"
+
+#: common/lib/capa/capa/responsetypes.py
 msgid "There was a problem with the staff answer to this problem."
 msgstr "Возникла проблема с ответом сотрудников курса на это задание"
 
@@ -14537,13 +14567,13 @@ msgstr "Важно!"
 #: lms/templates/seq_module.html
 msgctxt "unit"
 msgid "Previous"
-msgstr "Предыдущий блок"
+msgstr "Предыдущий блок "
 
 #. Translators: A button for showing the Next Unit
 #: lms/templates/seq_module.html
 msgctxt "unit"
 msgid "Next"
-msgstr "Следующий блок"
+msgstr " Следующий блок"
 
 #. Translators: A button for showing the Next Unit
 #: lms/templates/seq_module.html

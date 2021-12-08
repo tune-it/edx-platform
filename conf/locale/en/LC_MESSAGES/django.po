@@ -1736,6 +1736,36 @@ msgid "Numerical Input"
 msgstr ""
 
 #: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Blank Common Problem"
+msgstr ""
+
+#: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Checkboxes with Hints and Feedback"
+msgstr ""
+
+#: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Dropdown with Hints and Feedback"
+msgstr ""
+
+#: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Multiple Choice with Hints and Feedback"
+msgstr ""
+
+#: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Numerical Input with Hints and Feedback"
+msgstr ""
+
+#: common/lib/capa/capa/responsetypes.py
+#: cms/templates/widgets/problem-edit.html
+msgid "Text Input with Hints and Feedback"
+msgstr ""
+
+#: common/lib/capa/capa/responsetypes.py
 msgid "There was a problem with the staff answer to this problem."
 msgstr ""
 

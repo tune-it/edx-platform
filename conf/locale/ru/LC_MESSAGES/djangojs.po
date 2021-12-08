@@ -10541,6 +10541,14 @@ msgstr "Важная тема {highlight_index}"
 msgid "A highlight to look forward to this week."
 msgstr "Важная тема, с которой вы встретитись на этой неделе."
 
+#: cms/templates/js/highlights-editor.underscore
+msgid ""
+"For more information and an example of the email template, "
+"read our {linkStart}documentation{linkEnd}."
+msgstr ""
+"Получить дополнительную информацию с примерами шаблона можно "
+"в нашей {linkStart}документации{linkEnd}."
+
 #: cms/templates/js/license-selector.underscore
 msgid "License Type"
 msgstr "Тип лицензии"

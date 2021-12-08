@@ -11417,6 +11417,11 @@ msgstr ""
 msgid "A highlight to look forward to this week."
 msgstr ""
 
+#: cms/templates/js/highlights-editor.underscore
+msgid ""
+"For more information and an example of the email template, "
+"read our {linkStart}documentation{linkEnd}."
+
 #: cms/templates/js/license-selector.underscore
 msgid "License Type"
 msgstr ""
