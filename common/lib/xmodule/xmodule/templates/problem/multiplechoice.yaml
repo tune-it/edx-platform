@@ -1,15 +1,15 @@
 ---
 metadata:
-    display_name: Multiple Choice
+    display_name: Выбор варианта
     markdown: |
 
-        You can use this template as a guide to the simple editor markdown and OLX markup to use for multiple choice problems. Edit this component to replace this template with your own assessment.
+        Вы можете использовать этот шаблон в качестве руководства по разметке простого редактора и разметке OLX для решения задач числового ввода. Отредактируйте этот компонент, чтобы заменить этот шаблон своей собственной оценкой.
 
-        >>Add the question text, or prompt, here. This text is required.||You can add an optional tip or note related to the prompt like this. <<
-
-        ( ) an incorrect answer
-        (x) the correct answer
-        ( ) an incorrect answer
+        >> Добавьте сюда текст вопроса или подсказку. Этот текст является обязательным. || Вы можете добавить дополнительную подсказку или примечание, относящееся к подсказке, подобной этой. << 
+         
+        ( ) неправильный ответ
+        (x) правильный ответ
+        ( ) неправильный ответ 
 
 
 data:   |

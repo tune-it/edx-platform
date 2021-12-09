@@ -1,32 +1,38 @@
 ---
 metadata:
-    display_name: IFrame Tool
+    display_name: Инструмент IFrame
 data: |
-      <h3 class="hd hd-2">IFrame Tool</h3>
-      <p>Use the IFrame tool to embed an exercise or tool from any web site into your course content. For example, the tool below allows learners to experiment with how the shape of a triangle affects a line that is derived from the triangle.</p>
-      <p>Exercises in an IFrame are not graded. To embed graded exercises, use a Custom JavaScript Problem.</p>
-      <p>The following code is the HTML format required to use the IFrame tool. For the IFrame in this template, you must replace the values in <i>italics</i>.</p>
+      <h3 class = "hd hd-2"> Инструмент IFrame </h3>
+      <p> Используйте инструмент IFrame, чтобы встроить упражнение или инструмент с любого веб-сайта в содержание вашего курса. Например, инструмент ниже позволяет учащимся экспериментировать с тем, как форма треугольника влияет на линию, образованную из треугольника. </p>
+      <p> Упражнения в IFrame не оцениваются. Чтобы встроить оцененные упражнения, используйте пользовательскую задачу JavaScript. </p>
+      <p> Следующий код представляет собой формат HTML, необходимый для использования инструмента IFrame. Для IFrame в этом шаблоне необходимо заменить значения, выделенные <i> курсивом </i>. </p>
         <pre>
-        &lt;iframe title="<i>The required title of the tool</i>"
-          src="<i>The URL of the tool, starting with https://</i>"&gt;
-           <i>Message displayed when the browser does not support IFrames.</i>
+        & lt; iframe title = "<i> Требуемый заголовок инструмента </i>"
+          src = "<i> URL-адрес инструмента, начинающийся с https: // </i>" & gt;
+           <i> Сообщение отображается, когда браузер не поддерживает IFrames. </i>
+        & lt; / iframe & gt;
+        </pre>
+        <pre>
+        &lt;iframe title="<i>Требуемый заголовок инструмента</i>"
+          src="<i>URL-адрес инструмента, начинающийся с https://</i>"&gt;
+           <i>Сообщение отображается, когда браузер не поддерживает IFrames.</i>
         &lt;/iframe&gt;
         </pre>
-      <p>The Iframe below includes the width, height, marginwidth, marginheight, frameborder, and scrolling attributes. These attributes are optional. You can remove these attributes or replace their values.</p>
-      <p>Modify this template as needed.</p>
-      <p>To modify the IFrame, you must edit the HTML source code. When editing this template, click <strong>HTML</strong> in the toolbar.</p>
-      <p>Then modify the example below for your own use.
+      <p> Приведенный ниже iframe включает атрибуты ширины, высоты, ширины поля, высоты поля, границы кадра и прокрутки. Эти атрибуты необязательны. Вы можете удалить эти атрибуты или заменить их значения. </p>
+      <p> При необходимости измените этот шаблон. </p>
+      <p> Чтобы изменить IFrame, необходимо отредактировать исходный код HTML. При редактировании этого шаблона нажмите <strong> HTML </strong> на панели инструментов. </p>
+      <p> Затем измените приведенный ниже пример для собственного использования.
       <ol>
-      <li>Replace the value of the <strong>src</strong> attribute of the IFrame with the URL of the tool that you want in your course.
-      <p><strong>Note</strong>: The URL must start with <strong>https</strong> instead of http, to ensure that the tool appears in all browsers that support IFrames.</p></li>
-      <li>Replace the value of the <strong>title</strong> attribute with the title of the tool. You <strong>must</strong> include the title to provide an accessible label.</li>
-      <li>Replace other IFrame attributes as needed. See <a href="http://www.w3.org/wiki/HTML/Elements/iframe" target="_blank">the IFrame specification</a> for more information.</li>
-      <li>Optionally, replace the text between the opening and closing <strong>iframe</strong> tags.
-          <pre>Your browser does not support IFrames.</pre>
-          <p>A learner sees this text if the browser does not support IFrames.</p>
+      <li> Замените значение атрибута <strong> src </strong> IFrame на URL-адрес инструмента, который вы хотите использовать в своем курсе.
+      <p> <strong> Примечание </strong>. URL-адрес должен начинаться с <strong> https </strong> вместо http, чтобы инструмент отображался во всех браузерах, поддерживающих IFrames. </p> </li>
+      <li> Замените значение атрибута <strong> title </strong> названием инструмента. Вы <strong> должны </strong> включить заголовок, чтобы сделать ярлык доступным. </li>
+      <li> При необходимости замените другие атрибуты IFrame. Дополнительную информацию см. В <a href="http://www.w3.org/wiki/HTML/Elements/iframe" target="_blank"> спецификации IFrame </a>. </li>
+      <li> При желании замените текст между открывающим и закрывающим тегами <strong> iframe </strong>.
+          <pre> Ваш браузер не поддерживает IFrames. </pre>
+          <p> Учащийся видит этот текст, если браузер не поддерживает IFrames. </p>
       </li>
       </ol>
-      <p>The sample IFrame follows. Modify its attributes as described above.</p>
+      <p> Далее следует образец IFrame. Измените его атрибуты, как описано выше. </p> 
       <iframe title="Euler Line Demo" src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="402" height="402" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
-      Your browser does not support IFrames.
+      Ваш браузер не поддерживает IFrames.
       </iframe>

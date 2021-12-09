@@ -2197,7 +2197,7 @@ msgstr "Выпадающий список"
 #: common/lib/capa/capa/responsetypes.py
 #: cms/templates/widgets/problem-edit.html
 msgid "Numerical Input"
-msgstr "Цифровой ввод"
+msgstr "Числовой ввод"
 
 #: common/lib/capa/capa/responsetypes.py
 #: cms/templates/widgets/problem-edit.html
@@ -2217,12 +2217,12 @@ msgstr "Выпадающий список с подсказками и обра�
 #: common/lib/capa/capa/responsetypes.py
 #: cms/templates/widgets/problem-edit.html
 msgid "Multiple Choice with Hints and Feedback"
-msgstr "Выбор варианта с подсказками и обратной связью "
+msgstr "Выбор варианта с подсказками и обратной связью"
 
 #: common/lib/capa/capa/responsetypes.py
 #: cms/templates/widgets/problem-edit.html
 msgid "Numerical Input with Hints and Feedback"
-msgstr "Цифровой ввод с подсказками и обратной связью"
+msgstr "Числовой ввод с подсказками и обратной связью"
 
 #: common/lib/capa/capa/responsetypes.py
 #: cms/templates/widgets/problem-edit.html

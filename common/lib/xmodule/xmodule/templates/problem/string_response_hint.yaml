@@ -3,31 +3,30 @@ metadata:
     display_name: Text Input with Hints and Feedback
     markdown: |
 
-        You can use this template as a guide to the simple editor markdown and OLX markup to use for text input with hints and feedback problems. Edit this component to replace this template with your own assessment.
+         Вы можете использовать этот шаблон в качестве руководства по разметке простого редактора и разметке OLX для решения проблем с вводом текста. Отредактируйте этот компонент, чтобы заменить этот шаблон своей собственной оценкой.
 
-        >>Add the question text, or prompt, here. This text is required.||You can add an optional tip or note related to the prompt like this. <<
+         >> Добавьте сюда текст вопроса или подсказку. Этот текст является обязательным. || Вы можете добавить дополнительную подсказку или примечание, относящееся к подсказке, подобной этой. <<
 
-        = the correct answer {{You can specify optional feedback like this, which appears after this answer is submitted.}}
-        or= optional acceptable variant of the correct answer
-        not= optional incorrect answer such as a frequent misconception  {{You can specify optional feedback for none, a subset, or all of the answers.}}
+         = правильный ответ {{Вы можете указать необязательный отзыв, подобный этому, который появляется после отправки этого ответа.}}
+         or= необязательный приемлемый вариант правильного ответа
+         not= необязательный неправильный ответ, например частое заблуждение {{Вы можете указать необязательный отзыв ни для одного, ни для части или всех ответов.}} 
 
-        ||You can add an optional hint like this. Problems that have a hint include a hint button, and this text appears the first time learners select the button.||
-        ||If you add more than one hint, a different hint appears each time learners select the hint button.||
+         || Вы можете добавить такую необязательную подсказку. Задачи, для которых есть подсказка, включают кнопку подсказки, и этот текст появляется, когда учащиеся нажимают кнопку в первый раз. ||
+         || Если вы добавляете более одной подсказки, каждый раз, когда учащиеся нажимают кнопку подсказки, появляется другая подсказка. || 
 
 hinted: true
 data:   |
         <problem>
-            <stringresponse answer="the correct answer" type="ci">
-                <p>You can use this template as a guide to the simple editor markdown and OLX markup to use for text input with hints and feedback problems. Edit this component to replace this template with your own assessment.</p>
-                <label>Add the question text, or prompt, here. This text is required.</label>
-                <description>You can add an optional tip or note related to the prompt like this.</description>
-                <correcthint>You can specify optional feedback like this, which appears after this answer is submitted.</correcthint>
-                <additional_answer answer="optional acceptable variant of the correct answer"/>
-                <stringequalhint answer="optional incorrect answer such as a frequent misconception">You can specify optional feedback for none, a subset, or all of the answers.</stringequalhint>
+            <stringresponse answer="tправильный ответ" type="ci">
+                <p>Вы можете использовать этот шаблон в качестве руководства по разметке простого редактора и разметке OLX для решения проблем с вводом текста. Отредактируйте этот компонент, чтобы заменить этот шаблон своей собственной оценкой.</p>
+                <label>Добавьте сюда текст вопроса или подсказку. Этот текст является обязательным.</label>
+                <description>Вы можете добавить дополнительную подсказку или примечание, относящееся к подсказке, подобной этой.</description>
+                <additional_answer answer="необязательный приемлемый вариант правильного ответа"/>
+                <stringequalhint answer = "необязательный неправильный ответ, например частое заблуждение"> Вы можете указать необязательный отзыв ни для одного, ни для части ответов, ни для всех ответов. </stringequalhint>
                 <textline size="20"/>
             </stringresponse>
             <demandhint>
-                <hint>You can add an optional hint like this. Problems that have a hint include a hint button, and this text appears the first time learners select the button.</hint>
-                <hint>If you add more than one hint, a different hint appears each time learners select the hint button.</hint>
+                 <hint> Вы можете добавить дополнительную подсказку, подобную этой. Задачи, для которых есть подсказка, включают кнопку подсказки, и этот текст появляется, когда учащиеся нажимают кнопку в первый раз. </hint>
+                 <hint> Если вы добавите более одной подсказки, каждый раз, когда учащиеся нажимают кнопку подсказки, появляется другая подсказка. </hint>
             </demandhint>
         </problem>

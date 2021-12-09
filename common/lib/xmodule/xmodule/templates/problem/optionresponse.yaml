@@ -1,24 +1,24 @@
 ---
 metadata:
-    display_name: Dropdown
+    display_name: Выпадающий список
     markdown: |
-         You can use this template as a guide to the simple editor markdown and OLX markup to use for dropdown problems. Edit this component to replace this template with your own assessment.
-         >>Add the question text, or prompt, here. This text is required.||You can add an optional tip or note related to the prompt like this. <<
-         [[
-         an incorrect answer
-         (the correct answer)
-         an incorrect answer
-         ]]
+          Вы можете использовать этот шаблон в качестве руководства по разметке простого редактора и разметке OLX для решения проблем с раскрывающимся списком. Отредактируйте этот компонент, чтобы заменить этот шаблон своей собственной оценкой.
+          >> Добавьте сюда текст вопроса или подсказку. Этот текст является обязательным. || Вы можете добавить дополнительную подсказку или примечание, относящееся к подсказке, подобной этой. <<
+          [[
+          неправильный ответ
+          (правильный ответ)
+          неправильный ответ
+          ]] 
 data:   |
         <problem>
             <optionresponse>
-                <p>You can use this template as a guide to the simple editor markdown and OLX markup to use for dropdown problems. Edit this component to replace this template with your own assessment.</p>
-                <label>Add the question text, or prompt, here. This text is required.</label>
-                <description>You can add an optional tip or note related to the prompt like this. </description>
+                <p> Вы можете использовать этот шаблон в качестве руководства по разметке простого редактора и разметке OLX для решения проблем с раскрывающимся списком. Измените этот компонент, чтобы заменить этот шаблон своей собственной оценкой. </p>
+                <label> Добавьте сюда текст вопроса или подсказку. Этот текст обязателен. </label>
+                <description>Вы можете добавить дополнительную подсказку или примечание, относящееся к подсказке, подобной этой. </description>
                 <optioninput>
-                    <option correct="False">an incorrect answer</option>
-                    <option correct="True">the correct answer</option>
-                    <option correct="False">an incorrect answer</option>
+                    <option corrective = "False"> неправильный ответ </option>
+                    <option corrective = "True"> правильный ответ </option>
+                    <option corrective = "False"> неправильный ответ </option>
                 </optioninput>
             </optionresponse>
         </problem>

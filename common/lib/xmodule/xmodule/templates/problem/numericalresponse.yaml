@@ -1,19 +1,19 @@
 ---
 metadata:
-    display_name: Numerical Input
+    display_name: Числовой ввод
     markdown: |
-        You can use this template as a guide to the simple editor markdown and OLX markup to use for numerical input problems. Edit this component to replace this template with your own assessment.
+        Вы можете использовать этот шаблон в качестве руководства по разметке простого редактора и разметке OLX для решения задач числового ввода. Отредактируйте этот компонент, чтобы заменить этот шаблон своей собственной оценкой.
 
-        >>Add the question text, or prompt, here. This text is required.||You can add an optional tip or note related to the prompt like this. <<
+         >> Добавьте сюда текст вопроса или подсказку. Этот текст является обязательным. || Вы можете добавить дополнительную подсказку или примечание, относящееся к подсказке, подобной этой. << 
 
         = 100 +-5
 
 data:   |
         <problem>
             <numericalresponse answer="100">
-                <p>You can use this template as a guide to the simple editor markdown and OLX markup to use for numerical input problems. Edit this component to replace this template with your own assessment.</p>
-                <label>Add the question text, or prompt, here. This text is required.</label>
-                <description>You can add an optional tip or note related to the prompt like this.</description>
+                 <p> Вы можете использовать этот шаблон в качестве руководства по разметке простого редактора и разметке OLX для решения задач числового ввода. Измените этот компонент, чтобы заменить этот шаблон своей собственной оценкой. </p>
+                 <label> Добавьте сюда текст вопроса или подсказку. Этот текст обязателен. </label>
+                 <description> Вы можете добавить дополнительную подсказку или примечание, относящееся к подсказке, как это. </description>
                 <responseparam type="tolerance" default="5"/>
                 <formulaequationinput/>
             </numericalresponse>

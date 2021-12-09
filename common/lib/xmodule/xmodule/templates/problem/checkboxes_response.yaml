@@ -1,27 +1,26 @@
 ---
 metadata:
-    display_name: Checkboxes
+    display_name: Флажки
     markdown: |
-        You can use this template as a guide to the simple editor markdown and OLX markup to use for checkboxes problems. Edit this component to replace this template with your own assessment.
+       Вы можете использовать этот шаблон в качестве руководства по разметке простого редактора и разметки OLX для решения проблем с флажками. Отредактируйте этот компонент, чтобы заменить этот шаблон своей собственной оценкой.
 
-        >>Add the question text, or prompt, here. This text is required.||You can add an optional tip or note related to the prompt like this. <<
+         >>Добавьте сюда текст вопроса или подсказку. Этот текст является обязательным. || Вы можете добавить дополнительную подсказку или примечание, относящееся к подсказке, подобной этой.<<
 
-        [x] a correct answer
-        [ ] an incorrect answer
-        [ ] an incorrect answer
-        [x] a correct answer
-
+         [x] правильный ответ
+         [ ] неправильный ответ
+         [ ] неправильный ответ
+         [x] правильный ответ 
 data:   |
         <problem>
             <choiceresponse>
-                <p>You can use this template as a guide to the simple editor markdown and OLX markup to use for checkboxes problems. Edit this component to replace this template with your own assessment.</p>
-                <label>Add the question text, or prompt, here. This text is required.</label>
-                <description>You can add an optional tip or note related to the prompt like this.</description>
-                <checkboxgroup>
-                    <choice correct="true">a correct answer</choice>
-                    <choice correct="false">an incorrect answer</choice>
-                    <choice correct="false">an incorrect answer</choice>
-                    <choice correct="true">a correct answer</choice>
+                  <p> Вы можете использовать этот шаблон в качестве руководства по разметке простого редактора и разметки OLX для устранения проблем с флажками. Измените этот компонент, чтобы заменить этот шаблон своей собственной оценкой. </p>
+                 <label> Добавьте сюда текст вопроса или подсказку. Этот текст обязателен. </label>
+                 <description> Вы можете добавить дополнительную подсказку или примечание, относящееся к подсказке, как это. </description> 
+               <checkboxgroup>
+                    <choice correct="true">правильный ответ</choice>
+                    <choice correct="false">неправильный ответ</choice>
+                    <choice correct="false">неправильный ответ</choice>
+                    <choice correct="true">правильный ответ</choice>
                 </checkboxgroup>
             </choiceresponse>
         </problem>
