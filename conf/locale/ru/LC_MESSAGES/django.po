@@ -11354,7 +11354,7 @@ msgstr "Все"
 
 #: openedx/core/djangoapps/schedules/admin.py
 msgid "Experience"
-msgstr ""
+msgstr "Интерфейс"
 
 #: openedx/core/djangoapps/schedules/apps.py
 #: openedx/core/djangoapps/schedules/models.py
@@ -12385,7 +12385,7 @@ msgstr ""
 #: openedx/features/course_experience/views/course_home_messages.py
 #, python-brace-format
 msgid "Welcome to {course_display_name}"
-msgstr ""
+msgstr "Добро пожаловать на курс {course_display_name}"
 
 #: openedx/features/course_experience/views/course_home_messages.py
 #, python-brace-format
@@ -13273,7 +13273,7 @@ msgstr "Номер курса"
 #: cms/templates/course_outline.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Course Outline"
-msgstr "Структура курса"
+msgstr "Структура"
 
 #: cms/templates/html_error.html lms/templates/module-error.html
 msgid "Error:"
@@ -14310,6 +14310,18 @@ msgstr "Настроить режим предварительного прос�
 #: lms/templates/preview_menu.html
 msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
 msgstr "Вы просматриваете курс под именем {i_start}{user_name}{i_end}."
+
+#: lms/templates/preview_menu.html
+msgid "View in the new experience"
+msgstr "Просмотреть в новом интерфейсе"
+
+#: lms/templates/preview_menu.html
+msgid "View in Studio"
+msgstr "Просмотреть в студии"
+
+#: lms/templates/preview_menu.html
+msgid "View in Insights"
+msgstr "Просмотреть в Инсайте"
 
 #: lms/templates/problem.html
 msgid "You have used {num_used} of {num_total} attempt"
@@ -19684,7 +19696,7 @@ msgstr "Панель управления преподавателя"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "View Course in Studio"
-msgstr "Просмотр курса в Studio"
+msgstr "Просмотра в Studio"
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html
 msgid "Enrollment Code Status"
@@ -21504,6 +21516,9 @@ msgid ""
 "website. If you continue browsing this site, we understand that you accept "
 "the use of cookies."
 msgstr ""
+"Этот веб-сайт использует файлы cookie, чтобы вы могли максимально эффективно использовать "
+"веб-сайт. Если вы продолжите просматривать этот сайт, мы понимаем, что вы согласны с "
+"использованием файлов cookie."
 
 #: lms/templates/widgets/cookie-consent.html
 msgid "Got it!"
@@ -21584,11 +21599,11 @@ msgstr "Важные даты курса"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Goal: "
-msgstr ""
+msgstr "Цель"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Edit your course goal:"
-msgstr ""
+msgstr "Редактируйте цель курса:"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Pursue a verified certificate"
@@ -22351,11 +22366,11 @@ msgstr "Перейти к курсу в LMS"
 
 #: cms/templates/container.html
 msgid "View Live Version"
-msgstr "Просмотр курса"
+msgstr "Просмотр"
 
 #: cms/templates/container.html
 msgid "Preview the courseware in the LMS"
-msgstr "Предварительный просмотр курса в LMS"
+msgstr "Предварительный просмотр в LMS"
 
 #: cms/templates/container.html
 msgid "Adding components"
@@ -22700,7 +22715,7 @@ msgstr "Кликните, чтобы открыть содержание кур�
 
 #: cms/templates/course_outline.html cms/templates/edit-tabs.html
 msgid "View Live"
-msgstr "Просмотр курса"
+msgstr "Просмотр"
 
 #: cms/templates/course_outline.html
 msgid "Creating your course organization"

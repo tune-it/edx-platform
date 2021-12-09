@@ -5993,7 +5993,7 @@ msgstr ""
 
 #: cms/templates/js/show-textbook.underscore
 msgid "View Live"
-msgstr "Просмотр курса"
+msgstr "Просмотр"
 
 #: cms/static/js/maintenance/force_publish_course.js
 msgid "Internal Server Error."
@@ -6889,7 +6889,7 @@ msgstr "Загрузите миниатюру видео."
 
 #: cms/static/js/views/show_textbook.js
 msgid "Delete “<%- name %>”?"
-msgstr ""
+msgstr "Удалить “<%- name %>”?"
 
 #: cms/static/js/views/show_textbook.js
 msgid ""
@@ -6899,12 +6899,13 @@ msgstr ""
 
 #: cms/static/js/views/tabs.js
 msgid "Delete Page Confirmation"
-msgstr ""
+msgstr "Подтверждение удаления страницы"
 
 #: cms/static/js/views/tabs.js
 msgid ""
 "Are you sure you want to delete this page? This action cannot be undone."
 msgstr ""
+"Вы уверены в том, что хотите удалить эту страницу? Это перманентное действие."
 
 #: cms/templates/js/metadata-file-uploader-item.underscore
 #: cms/templates/js/video/metadata-translations-item.underscore
@@ -6913,79 +6914,87 @@ msgstr "Загрузить"
 
 #: cms/static/js/views/uploads.js
 msgid "We're sorry, there was an error"
-msgstr ""
+msgstr "Извините, произошла ошибка"
 
 #: cms/static/js/views/utils/create_course_utils.js
 msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%- limit %> characters."
 msgstr ""
+"Суммарная количество символов полей организации, номер курса и запуска курса"
+"не могут содержать более <% - limit%> символов." 
 
 #: cms/static/js/views/utils/create_library_utils.js
 msgid ""
 "The combined length of the organization and library code fields cannot be "
 "more than <%- limit %> characters."
 msgstr ""
+"Общая длина полей кода организации и библиотеки не может быть "
+"больше чем <% - limit%> символов." 
 
 #: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Success! \"{displayName}\" has been moved."
-msgstr ""
+msgstr "\"{displayName}\" успешно перенесено!"
 
 #: cms/static/js/views/utils/move_xblock_utils.js
 msgid ""
 "Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
 "location."
 msgstr ""
+"Перемещение отменено. \"{SourceDisplayName}\" возвращено к исходному "
+"месторасположению." 
 
 #: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Undo move"
-msgstr ""
+msgstr "Откатить перенос"
 
 #: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Take me to the new location"
-msgstr ""
+msgstr "Перенести в новое месторасположение"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Duplicating"
-msgstr ""
+msgstr "Дублирование"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Undo moving"
-msgstr ""
+msgstr "Откатить перенос"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Moving"
-msgstr ""
+msgstr "Перенос"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Deleting this {xblock_type} is permanent and cannot be undone."
-msgstr ""
+msgstr "{xblock_type} будет удален(а) навсегда и не может быть восстановлен. "
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid ""
 "Any content that has listed this content as a prerequisite will also have "
 "access limitations removed."
 msgstr ""
+"Для любого содержимого, в котором это содержимое указано как необходимое условие, "
+"также будут сняты ограничения доступа"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Delete this {xblock_type} (and prerequisite)?"
-msgstr ""
+msgstr "Удалить {xblock_type} (и связанные)?"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Yes, delete this {xblock_type}"
-msgstr ""
+msgstr "Да, Удалить {xblock_type}"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Delete this {xblock_type}?"
-msgstr ""
+msgstr "Удалить {xblock_type}?"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "section"
-msgstr ""
+msgstr "раздел"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "subsection"
-msgstr ""
+msgstr "подраздел"
 
 #: cms/templates/js/container-access.underscore
 msgid "unit"
