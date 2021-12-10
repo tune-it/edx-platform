@@ -4988,8 +4988,9 @@ msgstr "Главная страница"
 #: lms/templates/courseware/course_navigation.html
 #: lms/templates/courseware/courseware.html
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
+#: msgstr "Курс"
 msgid "Course"
-msgstr "Курс"
+msgstr "Тест"
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 #, python-brace-format
@@ -13272,6 +13273,7 @@ msgstr "Номер курса"
 
 #: cms/templates/course_outline.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
+#: msgstr "Структура курса"
 msgid "Course Outline"
 msgstr "Структура"
 
@@ -13662,8 +13664,9 @@ msgstr "Вы ещё не зарегистрированы ни на один к�
 #: lms/templates/navigation/navbar-authenticated.html
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html
 #: themes/edx.org/lms/templates/dashboard.html
+#: msgstr "Просмотреть курсы"
 msgid "Explore courses"
-msgstr "Просмотреть курсы"
+msgstr "Просмотреть тесты"
 
 #: lms/templates/dashboard.html
 #: lms/templates/registration/account_activation_sidebar_notice.html
@@ -14284,8 +14287,9 @@ msgid "Course View"
 msgstr "Обзор курса"
 
 #: lms/templates/preview_menu.html
+#: msgstr "Просмотреть курс как:"
 msgid "View this course as:"
-msgstr "Просмотреть курс как:"
+msgstr "Просмотреть как:"
 
 #: lms/templates/preview_menu.html
 msgid "Learner"
@@ -16794,8 +16798,9 @@ msgstr ""
 #: lms/templates/courseware/info.html
 #: lms/templates/dashboard/_dashboard_course_listing.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
+#: msgstr "Вернуться к курсу"
 msgid "Resume Course"
-msgstr "Вернуться к курсу"
+msgstr "Вернуться"
 
 #: lms/templates/courseware/info.html
 msgid "View Updates in Studio"
@@ -19695,8 +19700,9 @@ msgid "Instructor Dashboard"
 msgstr "Панель управления преподавателя"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
+#: msgstr "Просмотр курса в Studio"
 msgid "View Course in Studio"
-msgstr "Просмотра в Studio"
+msgstr "Просмотр в Studio"
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html
 msgid "Enrollment Code Status"
@@ -20481,8 +20487,9 @@ msgstr ""
 "волонтёром!{link_end}"
 
 #: lms/templates/navigation/navbar-not-authenticated.html
+#: msgstr "Просмотреть курсы"
 msgid "Explore Courses"
-msgstr "Просмотреть курсы"
+msgstr "Просмотреть"
 
 #: lms/templates/navigation/navigation.html
 msgid "Global"
@@ -21404,13 +21411,15 @@ msgstr ""
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 #: openedx/features/course_search/templates/course_search/course-search-fragment.html
+#: msgstr "Поиск по курсу"
 msgid "Search the course"
-msgstr "Поиск по курсу"
+msgstr "Поиск"
 
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
+#: msgstr "Приступить к курсу"
 msgid "Start Course"
-msgstr "Приступить к курсу"
+msgstr "Приступить"
 
 #: lms/templates/verify_student/_verification_help.html
 msgid "Have questions?"
