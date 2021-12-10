@@ -6,7 +6,7 @@ data: |
     <problem>
         <text>
             <p> <h4> Задача с адаптивной подсказкой </h4> </p>
-             <p> Эта задача демонстрирует вопрос с подсказками, основанными на использовании метода <tt class="tt">hintfn</tt> method. </p>
+            <p> Эта задача демонстрирует вопрос с подсказками, основанными на использовании метода <tt class="tt">hintfn</tt> method. </p>
 
             <customresponse cfn="test_str" expect="python">
             <script type="text/python" system_path="python_lib">
