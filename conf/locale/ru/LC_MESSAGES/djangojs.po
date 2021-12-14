@@ -10200,7 +10200,7 @@ msgstr "Подраздел будет скрыт по истечении сро�
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/xblock-outline.underscore
 msgid "You haven't added any content to this course yet."
-msgstr "Вы ещё не добавили материалы курса."
+msgstr "Вы ещё не добавили материалы."
 
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/xblock-outline.underscore

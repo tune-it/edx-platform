@@ -16,9 +16,9 @@ data:   |
                 <label> Добавьте сюда текст вопроса или подсказку. Этот текст обязателен. </label>
                 <description>Вы можете добавить дополнительную подсказку или примечание, относящееся к подсказке, подобной этой. </description>
                 <optioninput>
-                    <option corrective = "False"> неправильный ответ </option>
-                    <option corrective = "True"> правильный ответ </option>
-                    <option corrective = "False"> неправильный ответ </option>
+                    <option correct="False"> неправильный ответ </option>
+                    <option correct="True"> правильный ответ </option>
+                    <option correct="False"> неправильный ответ </option>
                 </optioninput>
             </optionresponse>
         </problem>
